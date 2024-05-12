@@ -1,0 +1,24 @@
+/* LeftSide.css */
+
+/* Style for the container div */
+.LeftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for the video element */
+  video {
+    margin-bottom: 20px; /* Add some space below the video */
+  }
+  
+  /* Style for ImageLayout component */
+  .ImageLayout {
+    margin-bottom: 10px; /* Add some space between each ImageLayout */
+  }
+  
+  /* Style for the image inside ImageLayout */
+  .ImageLayout img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+  }
+  
